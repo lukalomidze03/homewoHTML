@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+main {
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.box1 {
+    background-image: url(./images/bg-sidebar-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.bigmenu{
+width: 100%;
+height: 80%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.smallmenu{
+color: #ffff;
+column-gap: 16px;
+width: 110%;
+height: 15% ;
+padding: 20px;
+display: flex;
+row-gap: 16px;
+}
+
+.inbox1{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2px solid #fff;
+display: grid;
+place-content: center;
+}
+
+.inbox1p1{
+background-color: rgb(52, 231, 231);
+color: black;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2px solid #fff;
+display: grid;
+place-content: center;
+}
+.gn{
+font-size: 20px;
+}
+.FONT1{
+color: rgb(44, 98, 146);
+font-size: 14px;
+
+}
+.FONT2{
+font-size: 15px;
+}
+.box2 {
+    background-color: white;
+    border: solid 2px;
+    width: 65%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.input2,.input2p2{
+padding: 20px;
+}
+input{width: 400px;
+height: 40px;
+border-radius: 10px;}
+.buttonsize{padding: 20px;
+width: 450px;
+height: 120px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;}
+button{background-color: rgb(0, 115, 255); font-size: 15px; width: 95px; height: 45px;  border-radius: 20px; color: #f5f5f5;}
