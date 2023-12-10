@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: darkslategray;}
+.mainbox{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(./image/desktop/image-header.jpg);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+}
+.headbox{
+height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+padding: 15px;
+}
+
+.hbox2{
+display: flex;
+justify-content: space-around;
+}
+
+.rigbox{padding: 20px;}
+
+.headdown{
+color: white;
+padding: 20px;
+text-align: center;}
+.textbox1,.textbox2p1,.textbox2p2{
+    padding: 50px;
+}
+.cards{
+    display: flex
+}
+.card{background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.uper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.uper .card {
+    width: 50%;
+    padding: 25% 0;
+}
+.persons{height: 300px;
+background-color: white;}
+.lower .card{
+    width: 25%;
+    padding: 30% 0;
+}
+footer{
+    background-color: aquamarine;
+height: 140px;
+
+}
+.textbox2p1{
+    text-align: center;
+color: rgb(21, 114, 83);
+}
+.textbox2p2{
+    text-align: center;
+color: rgb(21, 71, 114);
+} 
+
+.personsbox{
+display: flex;
+    justify-content: space-around;
+}
+.persons{
+    padding: 20px;
+}
+.pergeneral{
+   text-align: center;
+    color: rgb(136, 131, 138);
+    padding: 10px;
+}
+.lotbox1,.info,.names,.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+padding: 4px;
+}
+
+.smallimg{width: 55px;
+    border-radius: 40px;}
+
+
+
+.footerbox{
+    color: #15632f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.menu,.imagesend{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px;
+}
+.menu1,.imagearound{
+    padding: 10px;
+}
