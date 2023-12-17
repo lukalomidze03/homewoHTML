@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+.main-conteiner {
+  max-width: 1200px;
+  height: 1900px;
+  margin-left: 330px;
+}
+
+.start-box {
+  max-width: 100%;
+  height: 40vh;
+}
+
+header {
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 40vh;
+}
+
+.center-box {
+  background-color: white;
+  width: 100%;
+  height: 1410px;
+}
+
+.end-box {
+  background-color: black;
+  width: 100%;
+  height: 117px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-box2>a {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.arrow::after {
+  width: 10%;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  content: "";
+  display: block;
+  transition: 0.2s;
+}
+
+.arrow:hover::after {
+  width: 100%;
+}
+
+.text-general {
+  border: solid white;
+  width: 290px;
+  height: 200px;
+  padding: 25px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.text-general>p {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.left-content {
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 1405px;
+}
+
+.nanobox1 {
+background-image:url(./images/desktop/image-interactive.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  margin-top: 50px;
+  width: 470px;
+  height: 300px;
+}
+
+.nanobox2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 400px;
+}
+
+.mini-box1 {
+  padding: 10px;
+  width: 1000px;
+  height: 600px;
+}
+
+.mini-box2 {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  background-color: black;
+  width: 85px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.micro2 {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.micro1 {
+  margin-left: 5px;
+}
+
+.imgsize {
+  width: 178px;
+}
+
+.mini-box3 {
+  width: 1000px;
+  height: 700px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imgsbox1 {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.imgsbox2 {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.centerimgs {
+  width: 179px;
+}
+
+
+.input1 {
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input2 {
+  background-image: url(./images/desktop/image-night-arcade.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input3 {
+  background-image: url(./images/desktop/image-soccer-team.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input4 {
+  background-image: url(./images/desktop/image-grid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input5 {
+  background-image: url(./images/desktop/image-from-above.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input6 {
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input7 {
+  background-image: url(./images/desktop/image-curiosity.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input8 {
+  background-image: url(./images/desktop/image-fisheye.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.move {
+  display: flex;
+  align-items: flex-end;
+}
+
+.inimgnames {
+  margin-bottom: 10px;
+}
+
+.inimgnames>h2 {
+  color: rgb(235, 234, 234);
+}
+
+footer {
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  width: 150px;
+}
+
+.nav-box5>a {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.nav-box4>a>img {
+  margin-left: 10px;
+}
+
+.nav-box4,
+.nav-box5 {
+  display: flex;
+}
+
+.icon {
+  width: 35px;
+}
+
+.end {
+  color: white;
+}
+
+.nav3 {
+  margin-top: -40px;
+}
