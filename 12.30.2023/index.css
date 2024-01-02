@@ -1,0 +1,253 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{border: 1px solid;
+width: 70%;
+margin: 20px auto;
+background-image: url(./images/bg-tablet-pattern.svg);
+background-size: 350px;
+background-repeat:space;
+}
+header{
+    width: 100%;
+height: 70px;}
+.head_bigger_box{
+    width: 100%;
+height: 70px;
+padding-left: 10px;
+padding-right: 30px;
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+.phmenu{background-image: url(./images/icon-hamburger.svg);
+width: 25px;
+background-repeat:no-repeat;
+}
+.menubox{position: absolute;
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 250px;
+top: 60px;
+right: 55px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+padding-top: 30px;
+transition-delay: 2s;
+visibility: hidden;
+}
+.menubox>a{text-decoration: none;
+    font-size: 25px;
+color: black;
+}
+button{width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3603C;
+    color: white;
+    }
+.phmenu:hover{background-image: url(./images/icon-close.svg);}
+.phmenu:hover ~ .menubox{visibility:  visible;}
+.menubox:hover{visibility:visible;}
+
+.hddbox{visibility: hidden;
+}
+
+.down-box{display: flex;
+flex-direction: column;
+}
+
+.sxril{width: 100%;
+}
+.trexbox1{display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+padding:10px;
+}
+.menttext{
+display: flex;
+flex-direction: column;
+width: 300px;
+gap: 30px;
+align-items: center;
+}
+
+.trexbox2{display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.macroinfo{display: flex;
+    flex-direction: column;
+    text-align: center;
+width: 150px;
+gap: 10px;
+}
+.lotboxss{display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 10px;
+}
+.gentxt{display: flex;
+gap: 15px;
+background-color: #f3613c35;
+border-radius: 10px;
+}
+.name{color: white;
+background-color: #F3603C;
+width: 50px;
+text-align: center;
+border-radius: 10px;
+}
+.person{width:250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+gap: 10px;
+}
+.perss{width: 70px;}
+.bigconts3>div{text-align: center;
+padding: 15px;
+}
+
+.bigconts4{background-color: #F3603C;
+height: 180px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+background-image: url(./images/bg-tablet-pattern.svg);
+background-size: 240px;
+background-repeat:repeat;
+background-blend-mode: color-burn;
+padding: 50px;
+}
+.butt3{background-color: white;
+color: #F3603C;
+}
+
+.bigconts4>div>h2{color: white;}
+footer{background-color: #1E1E26;
+height: 295px;
+
+}
+
+.footerbox{ 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px;
+gap: 20px;
+}
+
+.nenugo{display: flex;
+gap: 10px;
+}
+.texinput{border-radius: 50px;
+height: 30px;
+}
+
+.corrtensboxs{display: flex;
+gap: 20px;
+}
+.corrt1{display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.corrt1>div>a{color: white;
+text-decoration: none;}
+
+.loggers{display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.loggssbox{display: flex;
+gap: 10px;
+}
+.butt4{width: 50px;}
+
+@media only screen and (min-width: 700px) {
+
+.head_bigger_box{
+padding: 20px;
+}
+.phmenu{visibility: hidden;
+    position: absolute;
+}
+
+.hddbox{
+visibility: visible;}
+.hddbox>nav{display: flex;
+    gap: 20px;}
+.hddbox>nav>a{text-decoration: none;
+
+
+}
+
+.trexbox1{display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row-reverse;
+padding-left: 50px;
+padding-right: 50px;
+}
+.menttext{font-size: 20px;}
+.trexbox2{width: 100%;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+}
+.lotboxss{
+    display: flex;
+flex-direction: column;
+width: 380px;
+}
+.lotleft{display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.gentxt{background-color:#f3613c00;
+}
+
+.bigconts4{background-color: #F3603C;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+footer{height: 150px;}
+.footerbox{display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+
+}
+
+
+.loggers{display: flex;
+    flex-direction: column;
+    gap: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+}
