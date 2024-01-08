@@ -1,0 +1,66 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    @font-face {
+        font-family: bold1 ;
+        src: url(../assets/fonts/Roboto-Bold.ttf);
+    }
+    
+    @font-face {
+        font-family: reg1;
+        src: url(../assets/fonts/Roboto-Regular.ttf);
+    }
+    
+    body{background-color: #36384D;}
+    main{
+    width: 100%;
+    background-color: white;
+    display:flex ;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    }
+.img{background-image: url(../assets/images/icon-success.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100px;
+height: 100px;
+}
+
+.dopbox{display: flex;
+flex-direction: column;
+gap: 20px;
+width: 400px;
+
+}
+button{width: 450px;
+    height: 50px;
+    border-radius: 10px;
+background-color: #232742;
+color: white;
+font-size: 20px;
+font-family: reg1;
+}
+button:hover{background:linear-gradient(#DA4A5B,#FF9247,#ffd026)left; }
+h1{font-size: 50px;
+font-family: bold1;
+}
+h1{font-family: bold1;}
+p{font-family: reg1;}
+@media only screen and (min-width: 800px) {
+
+
+        main{
+            width: 470px;
+            margin: 280px auto;
+    padding: 10px;
+    border-radius: 20px;
+}        
+        
+        
+        
+        
+        
+}
